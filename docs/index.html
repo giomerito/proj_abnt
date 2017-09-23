@@ -90,11 +90,68 @@
 
 <!--Imagem depende da largura (picture)-->
         <br>
-        Outras imagens
+       
         <picture>
-            <source srcset="https://goo.gl/W8u0OB" media="(max-width:380px)">
-            <source srcset="https://goo.gl/W8u0OB" media="(min-width:379px)">
+            <source srcset="https://goo.gl/W8u0OB" media="(max-width:400px)" />
+            <source srcset="https://goo.gl/Q99Qus" media="(min-width:681px)" />
+            <img src="http://www.infoescola.com/wp-content/uploads/2011/02/bandeira-do-brasil.gif">
         </picture>
 
+        <!--Áudio (audio)-->
+        <p>I have a dream.<br />
+        Martin Luther King Jr.</p>
+        <audio controls="controls">
+            <source src="https://goo.gl/9Y2480" />
+        </audio>
+        <br>
+        I have a dream (mp3). Martin Luther King.<br>
+        <audio controls="controls">
+            <source src="https://goo.gl/9Y2480" /> <!--MP3-->
+            <source src="https://goo.gl/CPjXo2" /> <!--ogg-->
+        </audio>
+        <hr>
+        Video
+        <br>
+        <video controls="controls" width="400px">
+            <source src="https://goo.gl/TxLK20" />
+        </video>
+
+        <br>    
+        <br>
+        <hr>
+        <br>
+        <p>Trabalhando com tabelas</p>
+        <table>
+            <tr><td>Nome</td><td>Idade</td></tr>
+            <tr><td>João</td><td>56</td></tr>
+            <tr><td>Pedro</td><td>39</td></tr>
+        </table>
+        <br>
+        <br>
+        <br>
+        <!--iframe-->
+        <iframe height="220" width="600" src="https://goo.gl/eW9lVw"></iframe>
+        <br>
+        <iframe width="320" height="240" src="https://goo.gl/TtChwV"></iframe>
+        <br>
+        <br>
+
+        <form action="#" method="get">
+            <label for="name">Nome</label>
+            <input type="text" id="nome" name="n" />
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" />
+        </form>
+
+        <form action="#" method="get">
+            <label for="un">Username</label>
+            <input type="text" id="nome" name="n" />
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" />
+        </form>
+
+        
     </body>
 </html>
