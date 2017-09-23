@@ -1,3 +1,5 @@
 # Projeto de Fundamentos de FrontEnd
-- Giomerito
+- Giomerito Alves de Souza
 - Fábio Lucena
+
+## Inicio do projeto
