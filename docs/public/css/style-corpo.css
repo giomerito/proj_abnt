@@ -1,0 +1,8 @@
+/*Pagina de estilo para o corpo do sistema*/
+
+.corpo{
+    width: 80%;
+    height: 80%;
+    margin-left: 12em;    
+    border: 1px solid #000;
+}
