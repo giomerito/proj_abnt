@@ -57,3 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
+/FrontEnd/nbproject/private/
+/docs/nbproject/private/

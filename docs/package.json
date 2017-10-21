@@ -1,0 +1,8 @@
+{
+    "name": "FrontEnd",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "Giomerito Alves de Souza",
+    "contributors": [],
+    "dependencies": {}
+}
