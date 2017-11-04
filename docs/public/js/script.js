@@ -3,7 +3,7 @@ window.onload = function () {
     corrente = document.getElementById('home');
     corrente.style.display = "block";
 
-    veja('nomes-completo');
+    
     atualizaMunicipios();
     municipiosEndereco();
     nacionalidade();
@@ -50,28 +50,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
-function veja(d) {
-    /* Exibir a div */
-    var elementos = document.getElementsByClassName('parcial');
-    var i;
-    for (i = 0; i < elementos.length; i++) {
-        elementos[i].style.display = 'none';
-    }
-
-    var corrente = document.getElementById(d);
-    corrente.style.display = 'block';
-
-    /* Atualizar feedback da tab selecionada */
-    elementos = document.getElementsByClassName('li-parcial');
-    for (i = 0; i < elementos.length; i++) {
-        elementos[i].className = 'li-parcial';
-    }
-
-    corrente = document.getElementById('li-' + d);
-    corrente.className = 'li-parcial is-active';
-}
-
-
 function atualizaMunicipios() {
     var elemento = document.getElementById('estados');
     var estado = elemento.options[elemento.selectedIndex].text;
@@ -101,7 +79,7 @@ function atualizaMunicipios() {
             }
         }
     };
-    xhttp.open("GET", "js/municipios.json", true);
+    xhttp.open("GET", "public/js/municipios.json", true);
     xhttp.send();
 }
 
@@ -126,7 +104,7 @@ function paises(chave) {
             }
         }
     };
-    xhttp.open("GET", "js/paises.json", true);
+    xhttp.open("GET", "public/js/paises.json", true);
     xhttp.send();
 }
 
@@ -185,7 +163,7 @@ function municipiosEndereco() {
             }
         }
     };
-    xhttp.open("GET", "js/municipios.json", true);
+    xhttp.open("GET", "public/js/municipios.json", true);
     xhttp.send();
 }
 
